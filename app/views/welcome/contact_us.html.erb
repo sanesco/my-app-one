@@ -1,0 +1,23 @@
+<%# <%= @adress %>
+<h1>Contact Us</h1>
+<address>
+  Address: Amagá, Antioquia, vereda la Gualí
+</address>
+<div>
+  Phone: 3004164459
+</div>
+
+<%= form_for @welcome, url: ruta_path, method: :post do |f| %>
+<div>
+  <%= f.label "Nombre de la casilla" %>
+  <%= f.label :name %>
+</div>
+<% end %>
+
+<%# <form action="index.html" method="post">
+  <input type="text" >
+</form> %>
+
+<%= form_tag("/search?q=user", method: :get) do%>
+
+<% end %>
