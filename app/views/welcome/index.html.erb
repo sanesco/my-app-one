@@ -1,6 +1,15 @@
 <h1>Bienvenido <%= @name %>!</h1>
 <!-- <a href="welcome_path">Ir al home</a> -->
-<%= link_to "Ir al home", welcome_path %> 
+<div>
+  <h3><%= link_to "Ir al home", welcome_index_path %></h3>
+</div>
+<div >
+  <h3><%= link_to "Ir a Products", products_path %></h3>
+</div>
+<div>
+  <h3><%= link_to "Ir al Blog", blog_index_path %></h3>
+</div>
+
 <!-- <a href="welcome/index">Enlace a mi ruta</a> -->
  <% # <%= link_to "Enlace a mi ruta", welcome_path %>
 <%# ##

@@ -2,11 +2,12 @@ Rails.application.routes.draw do
 
 
   resources :products
+  resources :welcome
   root 'welcome#index'
-  get 'hello/:name', to: 'welcome#index', as: 'welcome'
-  get 'welcome/about', to: 'welcome#about'
-  get 'welcome/contact_us', to: 'welcome#contact_us'
-  get 'welcome/prices', to: 'welcome#prices'
+  # get 'welcome/:name', to: 'welcome#index', as: 'welcome'
+  # get 'welcome/about', to: 'welcome#about'
+  # get 'welcome/contact_us', to: 'welcome#contact_us'
+  # get 'welcome/prices', to: 'welcome#prices'
 
   # get 'blog/index', to: 'blog#index'
   # get 'blog/new', to: 'blog#new'

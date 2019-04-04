@@ -3,7 +3,7 @@ class WelcomeController < ApplicationController
     @name = params[:name]
   end
   def about
-    redirect_to welcome_prices_path
+    redirect_to welcome_path_prices
     #@descriptions = "Nuestra empresa es Amavocado, distribuidora de aguacate para exportación, ubicada en los municipios de Amagá y Angelopolis"
   end
 
